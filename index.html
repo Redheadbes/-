@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEST SP SCRIPTS</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Иконка для вкладки браузера -->
+  <link rel="icon" type="image/png" href="sp.ico" sizes="32x32">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="sp.ico" alt="Logo" class="logo-image" />
+        <span class="logo-text">TEST SP SCRIPTS</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Обратная связь</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Главный контент -->
+  <main class="main-content">
+    <div class="container">
+      <h1>Добро пожаловать в TEST SP SCRIPTS</h1>
+      <p>Выберите нужный скрипт и начните работу.</p>
+      <button onclick="goToScripts()">Перейти к выбору скриптов</button>
+    </div>
+  </main>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 TEST SP SCRIPTS. Все Гришы тут.</p>
+    </div>
+  </footer>
+
+  <script>
+    function goToScripts() {
+      window.location.href = "scripts.html";
+    }
+  </script>
+</body>
+</html>

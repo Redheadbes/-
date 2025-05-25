@@ -1,0 +1,135 @@
+/* Общие стили */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Навигация */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #007BFF;
+  text-transform: uppercase;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #007BFF;
+}
+
+/* Главный контент */
+.main-content {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.main-content button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.main-content button:hover {
+  background-color: #0056b3;
+}
+
+/* Список скриптов */
+.script-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.script-list li {
+  margin: 10px 0;
+}
+
+.script-list a {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 1.1rem;
+}
+
+.script-list a:hover {
+  text-decoration: underline;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Футер */
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
